@@ -58,7 +58,7 @@ textarea {
 
 hr{ 
     height: 1px;
-    color: #6969693b;
+    color: red !important;
   }
 
 /* style for button div */
