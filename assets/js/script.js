@@ -23,7 +23,7 @@ create.addEventListener("click", function () {
 });
 
 function generatePassword() {
-    enter = parseInt(prompt("How long should your password be? Enter a number between 8 and 128"));
+    enter = parseInt(prompt("I can generate a secure password for you. Please answer the following questions. How long should your password be? (Enter a number between 8 and 128)"));
     // user validation 
     if (!enter) {
         alert("This needs a value");
@@ -32,7 +32,7 @@ function generatePassword() {
         enter = parseInt(prompt("You must choose a number between 8 and 128"));
 
     } else {
-        checkNumber = confirm("Would you like it to include numbers?");
+        checkNumber = confirm("Would you like your password to include numbers?");
         checkCharacter = confirm("Would you like it to include special characters?");
         checkUppercase = confirm("Would you like it to include uppercase letters?");
         checkLowercase = confirm("Would you like it to include lowercase letters?");
